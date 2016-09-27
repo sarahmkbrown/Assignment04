@@ -1,0 +1,155 @@
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 5em;
+    vertical-align: baseline;
+}
+p{
+    font-size: 100%;
+}
+ul{
+    list-style-type: none;
+}
+
+a:visited{
+	color: rgb(0,0,0);
+}
+
+.caption{
+ font-family: Muli, sans-serif;
+ margin-top: 0em;
+ font-style: italic;
+ font-weight: lighter;
+ font-size: 100%;
+ text-align: center;
+ padding-top: .2em;
+}
+
+.column1 {
+    float: left;
+    width: 75%;
+}
+
+.column2 {
+    float: right;
+    width: 20%;
+
+}
+
+.blog_header{
+    font-family: Muli, sans-serif;
+    border-bottom: solid 1px #000000;
+}
+
+.nav_span {
+    margin-right: 4em;
+}
+
+.timeline_header{
+    font-family: Muli, sans-serif;
+    font-weight: lighter;
+    font-size: 100%;
+	padding-top: 1.5em;
+    border-bottom: solid 1px #000000;
+
+}
+.read_more{
+	font-style: italic;
+
+}
+
+#banner{
+	background-color: #000000;
+	color: #ffffff;
+	width: 100%;
+
+}
+
+#banner > h1 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+#blog_text{
+
+}
+#container{
+	width: 100%;
+}
+
+#content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#nav_bar {
+	background-color: #e6f0f2;
+    font-family: Muli, sans-serif;
+    font-size: 100%;
+   	width: 100%;
+
+}
+
+#nav_bar > ul {
+   	margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding-left: 0em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+#macaroon{
+    display: block;
+    margin: 0 auto;
+}
+
+#nav_bar a:link {
+	text-decoration: none;
+    color: #000000;
+}
+#nav_bar a:hover {
+    color: #2c7bb6;
+}
+
+#stickyheader{
+ 	position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-bottom: 8em;
+}
+#title{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: lighter;
+}
+
+#table1{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#subhead{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1em;
+	font-weight: lighter;
+
+}
+
+#sidebar{
+     font-family: Muli, sans-serif;
+    color: rgb(10,10,200);
+    font-style: italic;
+    text-align: left;
+    margin-left: 0em;
+}
